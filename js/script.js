@@ -22,6 +22,8 @@ let bottoneEl = document.getElementById("insertBtn");
             } else {
              totale = prezzo;
             }
-        
+            
+            document.writeln("totale: €" + totale.toFixed(2));
+
             console.log( "totale: €" + totale.toFixed(2) );
         })
