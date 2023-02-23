@@ -1,0 +1,9 @@
+.general-cont {
+    background-color: pink;
+    height: 100vh;
+}
+
+#insertBtn {
+    background-color: aqua;
+    font-weight: bold;
+}

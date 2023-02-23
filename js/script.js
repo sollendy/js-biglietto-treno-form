@@ -23,7 +23,7 @@ let bottoneEl = document.getElementById("insertBtn");
              totale = prezzo;
             }
             
-            //document.writeln("totale: €" + totale.toFixed(2));
-
             console.log( "totale: €" + totale.toFixed(2) );
+
+            document.writeln( " Età passeggero: " + anniEl " anni - corsa di" + distanzaEl "Km - importo totale: €" + totale.toFixed(2));
         })
