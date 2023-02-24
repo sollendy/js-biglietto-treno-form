@@ -26,7 +26,7 @@ let bottoneEl = document.getElementById("insertBtn");
             document.getElementById("ticket").style.display = "flex";
             document.getElementById("ageTicket").innerHTML = "Anni del passeggero: " + anniEl.value;
             document.getElementById("chilometri").innerHTML = "Viaggio di Km: " + distanzaEl.value;
-            document.getElementById("ammonto").innerHTML = "importo totale: €" + totale;
+            document.getElementById("ammonto").innerHTML = "importo totale: €" + totale.toFixed(2);
             console.log( "totale: €" + totale.toFixed(2) );
             //document.writeln( " Età passeggero: " + anniEl.value + " anni - Km di corsa: " + distanzaEl.value + " - importo totale: €" + totale.toFixed(2));
         })
